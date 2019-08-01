@@ -1,38 +1,54 @@
 #user_input{
-  display: flex;
-  wrap: wrap;
   height: 300px;
-  width: 99%;
+  width: 75%;
 }
-.button{
-  border-color: gray;
-  border-radius: 1px;
-  border-width: 2px;
-  height: 20px;
-  width: 200px;
-}
-.share{
+.txtarea{
   display: flex;
   justify-content: center;
+}
+.button{
+  font-family: Fugaz One;
+  border-color: #00A98C;
+  border-radius: 2px;
+  border-width: 3px;
+  height: 50px;
+  width: 200px;
+}
+.modifybutton{
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+}
+.share{
   font-size: 20px;
-  width: 900px;
+  display: flex;
   color: white;
 }
 .div{
+  font-family: Fugaz One;
   display: flex;
   align-items: center;
+  justify-content: center;
+  border: 1px solid white;
   height: 50px;
-  width: 99%;
-  background-color: #7B6EF7;
+  width: 100%;
+  background-color: #00A98C;
   border-radius: 3px;
 }
 .userstext{
-  width: auto;
+  background-color: #9BCBC3;
+  width: 975px;
+  border: 2px solid #00A98C;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px;
+
+}
+.txtcontainers{
   border: 1px solid gray;
   margin: 4px;
   padding: 7px;
 }
-
 
 
 /*kelly's code starts here*/
@@ -53,11 +69,12 @@ header {
 }
 
 h1 {
-  
+
   font-family: Fugaz One;
   font-size: 40px;
   display: flex;
   justify-content: center;
+  color: black;
 }
 
 .nav {
@@ -92,6 +109,7 @@ i {
 }
 
 .arrow-down {
+
   transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
 }

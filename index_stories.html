@@ -2,7 +2,7 @@
 <html lang="en" dir="ltr">
 
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles_stories.css">
     <link href="https://fonts.googleapis.com/css?family=Fugaz+One%7CMontserrat%7COswald&display=swap" rel="stylesheet">
     <meta charset="utf-8">
     <title>Share your Story</title>
@@ -36,18 +36,24 @@
 <br>
     <form>
       <div class="div">
-        <label class="share"><b>Share your story here...</b></label>
+        <label class="share"><b>SHARE YOU STORY HERE</b></label>
         </div>
         <br>
-      <textarea id="user_input" name="areatxt" rows="8" cols="80"></textarea>
+        <div class="txtarea">
+      <textarea  id="user_input" name="areatxt" rows="8" cols="80"></textarea>
+    </div>
       </form>
-      <input type="submit" onclick="showInput();" class="button">
+      <div class="modifybutton">
+      <input type="submit" onclick="showInput();" class="button" value="SHARE STORY" >
+      </div>
       <label></label>
-      <div class="txtcontainers">
-      <div class="userstext"><span id='display'></span></div>
+      <div class="userstext">
+        <span id='display'></span>
+      </div>
+
 </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script type="text/javascript" src="./index.js"></script>
+  <script type="text/javascript" src="./index_stories.js"></script>
   </body>
 
 </html>
