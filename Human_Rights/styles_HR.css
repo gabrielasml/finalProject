@@ -10,6 +10,16 @@
   margin-bottom: 25px;
   padding: 5px;
 }
+
+h2 {
+  display: flex;
+  justify-content: center;
+  font-family: Montserrat;
+}
+
+h3 {
+  font-family: Oswald;
+}
 .human {
   display: flex;
   align-items: center;
@@ -71,7 +81,7 @@ p {
   margin-bottom: 25px;
   margin-left: 75px;
   margin-right: 75px;
-  color: white;
+  color: black;
 }
 * {
   box-sizing: border-box;
@@ -136,6 +146,11 @@ i {
   display: block;
   padding: 9px;
   margin-left: 20px;
+}
+
+.resources>p {
+  font-family: Montserrat;
+  color: black;
 }
 
 .arrow-down {
